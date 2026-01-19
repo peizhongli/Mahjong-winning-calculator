@@ -1,0 +1,48 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "hidden"
+			}
+		},
+		{
+			"path": "pages/drawLots/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/drawLots/drawPage/drawPage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/drawLots/drawPage/item/item",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "transparent",
+		"backgroundColor": "#F8F8F8",
+		"navigationBarTitleText": "",
+		"navigationBarTextStyle": "hidden",
+		// 新增安全区适配配置
+		"app-plus": {
+			"safearea": {
+				"bottom": {
+					"offset": "none"
+				}
+			}
+		}
+	},
+	"uniIdRouter": {},
+	// 配置路由基础路径（所有页面路由都会带上这个前缀）
+	"router": {
+		"base": "/app" // 比如访问首页的路径会变成 /app/pages/index/index
+	}
+}
